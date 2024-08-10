@@ -1,3 +1,4 @@
 # toUpperCase
 toUpperCase
-### https://meet-abhishek.github.io/CaseConvert
+### https://meet-abhishek.github.io/TextCaseConverter
+
