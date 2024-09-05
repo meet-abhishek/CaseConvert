@@ -43,3 +43,21 @@ document.getElementById("clear").addEventListener("click", function(){
     document.getElementById("text").value = "";
     document.getElementById("result").value = "";
 });
+
+/*-----------CLEAR---------------*/
+document.getElementById("paste").addEventListener("click", function() {
+    pasteText();
+});
+
+async function pasteText() {
+    const textarea = document.getElementById('text');
+    
+    try {
+        // Use the Clipboard API to read text from the clipboard
+        const text = await navigator.clipboard.readText();
+        textarea.value += text; // Append the text to the textarea
+        console.log("Pasted text:", text);
+    } catch (err) {
+        console.error('Failed to read clipboard contents:', err);
+    }
+}

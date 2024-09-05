@@ -97,6 +97,21 @@ textarea {
     cursor: pointer; /* Pointer cursor on hover */
 }
 
+.paste {
+    background-color: #ffffff; /* Green */
+    height: auto;
+    width: 7rem;
+    border: none;
+    color: rgb(0, 0, 0);
+    padding: 15px 0px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
 @media (max-width: 1080px) {
     .btns {
         display: flex;
