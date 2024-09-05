@@ -44,7 +44,7 @@ document.getElementById("clear").addEventListener("click", function(){
     document.getElementById("result").value = "";
 });
 
-/*-----------CLEAR---------------*/
+/*-----------PASTE---------------*/
 document.getElementById("paste").addEventListener("click", function() {
     pasteText();
 });
